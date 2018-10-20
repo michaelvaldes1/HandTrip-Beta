@@ -1,0 +1,33 @@
+page-puerto-vidal {
+    #bg {
+        background: linear-gradient(160deg, #000 30%, #032532 70%);
+    }
+    table {
+        background: #32db64;
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        margin: 8px 3px;
+        font-weight: bold;
+    }
+    th,
+    td {
+        padding: 10px;
+    }
+    thead {
+        background: #032532;
+        color: white;
+    }
+    ion-item.co1 {
+        background: #032532;
+        margin: 1px;
+        color: white;
+        border-radius: 15px;
+    }
+    .btnFb {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        margin-left: 10px;
+    }
+}

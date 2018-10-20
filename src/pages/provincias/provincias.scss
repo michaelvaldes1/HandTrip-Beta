@@ -1,0 +1,83 @@
+page-provincias {
+    #bg {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(160deg, #000 30%, #032532 70%);
+    }
+    .card-background-page {
+        ion-card {
+            position: relative;
+            text-align: center;
+            width: 95%;
+            height: 24%;
+            img {
+                filter: brightness(30%);
+            }
+        }
+        .card-title {
+            position: absolute;
+            top: 36%;
+            font-size: 2.0em;
+            width: 100%;
+            font-weight: bold;
+            color: #fff;
+        }
+        .card-subtitle {
+            font-size: 1.0em;
+            position: absolute;
+            top: 52%;
+            width: 100%;
+            color: #fff;
+        }
+    }
+    .cont {
+        display: none;
+    }
+    .card-background-page {
+        position: relative;
+    }
+    .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 400px;
+        background: #032532;
+        border-radius: 10px;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, .9);
+    }
+    .box .detalle {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        text-align: center;
+    }
+    .imagen {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 4px solid #fff;
+        box-shadow: 0 5px 25px rgba(0, 0, 0, .5);
+        margin: 0 auto;
+    }
+    .box .detalle .imagen img {
+        width: 100%;
+    }
+    .box .detalle h3 {
+        padding: 0;
+        color: #fff;
+        font-size: 24px;
+    }
+    .box .detalle h3 span {
+        font-size: 16px;
+    }
+    .parrafo {
+        color: #fff;
+    }
+    .ocultar {
+        display: none;
+    }
+}

@@ -1,0 +1,40 @@
+<ion-header>
+
+    <ion-navbar color="barHome">
+        <ion-title>Chiriquí</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="bg">
+
+    <ion-card class="amarillo">
+        <ion-card-header>
+            <b>Rutas</b>
+        </ion-card-header>
+        <img src="assets/imgs/chiriqui-map.jpg">
+        <ion-list class="amarillo">
+
+            <button (click)="goDavid()" ion-item>
+                    <ion-icon name="md-bus" item-start></ion-icon>
+                    David
+            </button>
+
+            <button (click)="goBugaba()" ion-item>
+                    <ion-icon name="md-bus" item-start></ion-icon>
+                    Bugaba
+            </button>
+
+            <button (click)="goChiriquiFrontera()" ion-item>
+                    <ion-icon name="md-bus" item-start></ion-icon>
+                    Chiriquí Frontera
+            </button>
+
+
+
+        </ion-list>
+    </ion-card>
+
+
+</ion-content>

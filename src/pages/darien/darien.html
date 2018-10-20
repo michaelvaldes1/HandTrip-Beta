@@ -1,0 +1,35 @@
+<ion-header>
+
+    <ion-navbar color="barHome">
+        <ion-title>Darién</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="bg">
+    <ion-card class="amarillo">
+        <ion-card-header>
+            <b>Rutas</b>
+        </ion-card-header>
+        <img src="assets/imgs/darien-map.jpg">
+        <ion-list>
+
+            <button (click)="goAguaFria()" ion-item class="acordeon">
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Agua Fría
+            </button>
+
+
+            <button (click)="goRutaDarien()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Darién
+            </button>
+
+
+
+        </ion-list>
+    </ion-card>
+    <script type="text/javascript">
+    </script>
+</ion-content>

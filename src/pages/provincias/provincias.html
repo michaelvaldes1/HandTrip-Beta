@@ -1,0 +1,77 @@
+<ion-header>
+
+    <ion-navbar color="barHome">
+        <ion-title>Provincias</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="card-background-page" id="bg">
+
+
+
+    <ion-card (click)="goColon()">
+        <img src="assets/imgs/colon.jpg" />
+        <div class="card-title">Colón</div>
+        <div class="card-subtitle">1 Ruta</div>
+    </ion-card>
+
+    <ion-card (click)="goDarien()">
+        <img src="assets/imgs/darien.jpg" />
+        <div class="card-title">Darién</div>
+        <div class="card-subtitle">2 Rutas</div>
+    </ion-card>
+
+    <ion-card (click)="goCocle()">
+        <img src="assets/imgs/cocle.jpg" />
+        <div class="card-title">Coclé</div>
+        <div class="card-subtitle">8 Rutas</div>
+    </ion-card>
+
+    <ion-card (click)="goSantos()">
+        <img src="assets/imgs/santos.jpg" />
+        <div class="card-title">Los Santos</div>
+        <div class="card-subtitle">3 Rutas</div>
+    </ion-card>
+
+    <ion-card (click)="goHerrera()">
+        <img src="assets/imgs/herrera.jpg" />
+        <div class="card-title">Herrera</div>
+        <div class="card-subtitle">4 Rutas</div>
+    </ion-card>
+
+    <ion-card (click)="goVeraguas()">
+        <img src="assets/imgs/veraguas.jpg" />
+        <div class="card-title">Veraguas</div>
+        <div class="card-subtitle">7 Rutas</div>
+    </ion-card>
+
+    <ion-card (click)="goChiriqui()">
+        <img src="assets/imgs/chiriqui.jpg" />
+        <div class="card-title">Chiriquí</div>
+        <div class="card-subtitle">3 Rutas</div>
+    </ion-card>
+
+    <ion-card (click)="goBocas()">
+        <img src="assets/imgs/bocas.jpg" />
+        <div class="card-title">Bocas del Toro</div>
+        <div class="card-subtitle">1 Ruta</div>
+    </ion-card>
+
+    <div *ngIf="!ocultar" class="box" id="box">
+        <div class="detalle">
+            <div class="imagen">
+                <img [src]="user.imagen">
+            </div>
+            <p class="parrafo">Iniciaste Sesión como:</p>
+            <h3>{{ user.nombre }} <br> <span>{{ user.email }}</span></h3>
+            <button (click)="activar()" id="btnOk" ion-button color="secondary">OK</button>
+
+
+        </div>
+
+
+    </div>
+
+</ion-content>

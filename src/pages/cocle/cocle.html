@@ -1,0 +1,72 @@
+<ion-header>
+
+    <ion-navbar color="barHome">
+        <ion-title>Coclé</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="bg">
+
+    <ion-card class="amarillo">
+        <ion-card-header>
+            <b>Rutas</b>
+        </ion-card-header>
+        <img src="assets/imgs/cocle-map.jpg">
+        <ion-list>
+
+            <button (click)="goAguadulce()" id="cerAbrir" ion-item class="acordeon">
+                <ion-icon name="md-bus" item-start></ion-icon>
+                Aguadulce
+            </button>
+
+
+            <button (click)="goValle()" ion-item>
+                  <ion-icon name="md-bus" item-start></ion-icon>
+                  El Valle
+            </button>
+
+
+            <button (click)="goSanJuan()" ion-item>
+                  <ion-icon name="md-bus" item-start></ion-icon>
+                  San Juan de Dios, Llano
+            </button>
+
+
+            <button (click)="goAnton()" ion-item>
+                  <ion-icon name="md-bus" item-start></ion-icon>
+                  Antón
+            </button>
+
+
+            <button (click)="goPintada()" ion-item>
+                  <ion-icon name="md-bus" item-start></ion-icon>
+                  La Pintada
+           </button>
+
+
+
+            <button (click)="goGrande()" ion-item>
+                  <ion-icon name="md-bus" item-start></ion-icon>
+                  Grande, Cabuya, Santa Rita
+           </button>
+
+
+            <button (click)="goCope()" ion-item>
+                  <ion-icon name="md-bus" item-start></ion-icon>
+                  El Copé
+            </button>
+
+
+            <button (click)="goPenonome()" ion-item>
+                  <ion-icon name="md-bus" item-start></ion-icon>
+                  Penonomé
+            </button>
+
+
+        </ion-list>
+    </ion-card>
+
+
+</ion-content>

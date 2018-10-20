@@ -1,0 +1,41 @@
+<ion-header>
+
+    <ion-navbar color="barHome">
+        <ion-title>Los Santos</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="bg">
+
+    <ion-card class="amarillo">
+        <ion-card-header>
+            <b>Rutas</b>
+        </ion-card-header>
+        <img src="assets/imgs/santos-map.jpg">
+        <ion-list>
+
+            <button (click)="goMacaracas()" id="cerAbrir" ion-item class="acordeon">
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Macaracas
+            </button>
+
+
+            <button (click)="goTonosi()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Tonosí
+            </button>
+
+
+            <button (click)="goTablas()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Las Tablas
+            </button>
+
+
+        </ion-list>
+    </ion-card>
+
+
+</ion-content>

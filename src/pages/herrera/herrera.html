@@ -1,0 +1,47 @@
+<ion-header>
+
+    <ion-navbar color="barHome">
+        <ion-title>Herrera</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="bg">
+
+    <ion-card class="amarillo">
+        <ion-card-header>
+            <b>Rutas</b>
+        </ion-card-header>
+        <img src="assets/imgs/herrera-map.jpg">
+        <ion-list>
+
+            <button (click)="goOcu()" ion-item class="acordeon">
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Ocú
+            </button>
+
+
+            <button (click)="goPese()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Pesé
+            </button>
+
+
+
+            <button (click)="goChitre()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Chitré
+            </button>
+
+
+            <button (click)="goPozos()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Los Pozos
+            </button>
+
+
+        </ion-list>
+    </ion-card>
+
+</ion-content>

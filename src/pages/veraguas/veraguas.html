@@ -1,0 +1,65 @@
+<ion-header>
+
+    <ion-navbar color="barHome">
+        <ion-title>Veraguas</ion-title>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding id="bg">
+
+    <ion-card class="amarillo">
+        <ion-card-header>
+            <b>Rutas</b>
+        </ion-card-header>
+        <img src="assets/imgs/veraguas-map.jpg">
+        <ion-list>
+
+            <button (click)="goCalobre()" id="cerAbrir" ion-item class="acordeon">
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Calobre
+            </button>
+
+
+            <button (click)="goPuertoVidal()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Puerto Vidal
+            </button>
+
+
+            <button (click)="goSona()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Soná
+            </button>
+
+
+            <button (click)="goCanazas()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Cañazas
+            </button>
+
+
+
+            <button (click)="goRio()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Río de Jesús
+            </button>
+
+
+            <button (click)="goPalmas()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Las Palmas
+            </button>
+
+
+            <button (click)="goSantiago()" ion-item>
+              <ion-icon name="md-bus" item-start></ion-icon>
+              Santiago
+            </button>
+
+
+        </ion-list>
+    </ion-card>
+
+</ion-content>

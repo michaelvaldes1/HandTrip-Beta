@@ -1,0 +1,73 @@
+page-register {
+    ion-content {
+        background: rgba(3, 37, 50, 1);
+        background: -moz-linear-gradient(-45deg, rgba(3, 37, 50, 1) 0%, rgba(7, 47, 61, 1) 38%, rgba(34, 79, 94, 1) 56%, rgba(62, 102, 117, 1) 65%, rgba(180, 190, 194, 1) 100%);
+        background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(3, 37, 50, 1)), color-stop(38%, rgba(7, 47, 61, 1)), color-stop(56%, rgba(34, 79, 94, 1)), color-stop(65%, rgba(62, 102, 117, 1)), color-stop(100%, rgba(180, 190, 194, 1)));
+        background: -webkit-linear-gradient(-45deg, rgba(3, 37, 50, 1) 0%, rgba(7, 47, 61, 1) 38%, rgba(34, 79, 94, 1) 56%, rgba(62, 102, 117, 1) 65%, rgba(180, 190, 194, 1) 100%);
+        background: -o-linear-gradient(-45deg, rgba(3, 37, 50, 1) 0%, rgba(7, 47, 61, 1) 38%, rgba(34, 79, 94, 1) 56%, rgba(62, 102, 117, 1) 65%, rgba(180, 190, 194, 1) 100%);
+        background: -ms-linear-gradient(-45deg, rgba(3, 37, 50, 1) 0%, rgba(7, 47, 61, 1) 38%, rgba(34, 79, 94, 1) 56%, rgba(62, 102, 117, 1) 65%, rgba(180, 190, 194, 1) 100%);
+        background: linear-gradient(135deg, rgba(3, 37, 50, 1) 0%, rgba(7, 47, 61, 1) 38%, rgba(34, 79, 94, 1) 56%, rgba(62, 102, 117, 1) 65%, rgba(180, 190, 194, 1) 100%);
+    }
+    img {
+        width: 250px;
+    }
+    h3 {
+        color: white;
+    }
+    p {
+        color: #fff;
+        margin: 20px auto 5px auto;
+        font-size: 16px;
+    }
+    .top-20 {
+        margin-top: 0;
+    }
+    .top-5 {
+        margin-top: 0;
+    }
+    .btn {
+        border-radius: 40px;
+    }
+    button #entrar {
+        box-shadow: 0 10px 30 0 rgba(95, 186, 233, .4);
+        border-radius: 20px;
+    }
+    .loginIo {
+        margin-top: 10px;
+        text-align: center;
+        border: none;
+        padding: 15px 80px;
+        text-decoration: none;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 13px;
+        transition: all 0.3s ease-in-out;
+        width: 85%;
+        height: 35px;
+        color: #fff;
+    }
+    h5 {
+        color: #fff;
+    }
+    input[type=email],
+    input[type=password] {
+        background-color: #f6f6f6;
+        border: none;
+        color: #535353;
+        padding: 15px 32px;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 5px;
+        width: 85%;
+        border: 2px solid #f6f6f6;
+        transition: all 0.5s ease-in-out;
+        height: 35px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    ion-content {
+        text-align: center;
+    }
+}
